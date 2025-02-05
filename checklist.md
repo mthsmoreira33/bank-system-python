@@ -1,0 +1,31 @@
+# Bank System Project Checklist
+
+- [X] Create the main menu with options:
+    - [X] Depositar
+    - [X] Sacar
+    - [X] Extrato
+    - [X] Sair
+- [X] Initialize variables:
+    - [X] saldo = 0
+    - [X] limite = 500
+    - [X] extrato = ""
+    - [X] numero_saques = 0
+    - [X] LIMITE_SAQUES = 3
+- [X] Implement the main loop:
+    - [X] Read user input for menu option
+    - [X] Handle deposit option:
+        - [X] Prompt for deposit amount
+        - [X] Validate deposit amount
+        - [X] Update saldo and extrato if valid
+        - [X] Print error message if invalid
+    - [X] Handle withdraw option:
+        - [X] Prompt for withdraw amount
+        - [X] Check if withdraw exceeds saldo, limite, or LIMITE_SAQUES
+        - [X] Update saldo, extrato, and numero_saques if valid
+        - [X] Print error messages for each invalid condition
+    - [X] Handle extrato option:
+        - [X] Print extrato and saldo
+    - [X] Handle exit option:
+        - [X] Break the loop
+    - [X] Handle invalid menu option:
+        - [X] Print error message for invalid option
